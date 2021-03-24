@@ -33,7 +33,7 @@ const App = () => {
       },
     });
 
-    setCode(result.code);
+    setCode(result.outputFiles[0].text);
   };
 
   return (
